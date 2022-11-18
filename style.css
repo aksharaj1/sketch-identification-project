@@ -1,0 +1,41 @@
+body{
+    background-color: linen;
+
+}
+
+#score{
+    font-size: 30;
+    float: left;
+    margin-left: 200px;
+}
+
+#time{
+    font-size: 30;
+    float: right;
+    margin-right: 200px;
+}
+
+canvas{
+    border : 5px solid black;
+    border-radius : 20px;
+    margin-top: 150px;
+    animation-name : animation;
+    animation-duration : 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation{
+    from{box-shadow: 1px 1px 40px black;}
+    to{box-shadow: 1px 1px 40px white;}
+}
+
+
+
+
+
+
+
+
+
+
